@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'sinatra'
+gem 'cml'
+gem 'json'
+gem 'liquid'

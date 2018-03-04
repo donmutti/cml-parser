@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cml (1.24.0)
+      json
+      liquid (>= 2.0.0)
+      nokogiri (>= 1.4.2)
+    json (2.1.0)
+    liquid (4.0.0)
+    mini_portile2 (2.3.0)
+    mustermann (1.0.2)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    rack (2.0.4)
+    rack-protection (2.0.1)
+      rack
+    sinatra (2.0.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.1)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cml
+  json
+  liquid
+  sinatra
+
+BUNDLED WITH
+   1.16.1
