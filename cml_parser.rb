@@ -6,6 +6,16 @@ post '/cml/parse/' do
     { :html => handle_case }.to_json
 end
 
+get '/application/health/' do
+    status 200
+    body ''
+end
+
+get '/application/prometheus/' do
+    status 200
+    body ''
+end
+
 def handle_case
     request.body.rewind
     request_payload = JSON.parse request.body.read
